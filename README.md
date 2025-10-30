@@ -5,7 +5,9 @@ Sistema de chatbot inteligente para WhatsApp utilizando LangChain e Flask, com i
 ## 📋 Sobre o Projeto
 
 Este projeto implementa um agente de IA conversacional que atua como assistente de vendas no WhatsApp. O bot responde automaticamente as mensagens dos clientes de forma amigável e contextualizada.
-**OBS**: O RAG está desativado, apenas contem a estrutura e os documentos como modelo.
+**OBS**: 
+- O RAG está desativado, apenas contem a estrutura e os documentos como modelo.
+- Caso queira, pode ser utilizado em **VPS**
 
 ### Tecnologias Utilizadas
 
@@ -15,8 +17,12 @@ Este projeto implementa um agente de IA conversacional que atua como assistente 
 - **Uazapi** - Integração com WhatsApp
 - **Docker Compose** - Containerização
 - **Ngrok** - Tunnel para webhook
+
+**OBS:**Outras tecnologias foram testadas e aplicadas:
 - **HUGGINGFACE** - Caso queira utilizar para fazer RAG ou banco de dados
-- 
+- **EVO API** - Caso queira usar API localhosted
+- **Supabase** - Para RAG/banco de dados, memoria do agente e outros
+
 - ## 🚀 Instalação
 
 ### Pré-requisitos
@@ -207,3 +213,5 @@ docker-compose logs -f chatbot
 - Mantenha suas chaves API seguras e privadas
 - Use variáveis de ambiente para todas as credenciais
 - Revogue tokens comprometidos imediatamente
+
+## 🏗️ Modelo Visual

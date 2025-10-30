@@ -218,4 +218,5 @@ docker-compose logs -f chatbot
 
 ## 🏗️ Modelo Visual
 
-![Schema do Agente AI](assets/Schema AgenteAI.png)
+![Schema do Agente AI](assets/Schema_AgenteAI.png)
+
